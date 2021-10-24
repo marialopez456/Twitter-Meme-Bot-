@@ -9,11 +9,11 @@ from tweepy.models import Status
 import glob
 import random
 
-consumer_key= "4yrqI9C62w1sp5loWthA6E1hP"
-consumer_secret="WbVmSrEuzgILbsoZgP2KygJDkpvQvzsJW5F4a3wuVEjuX2OUpe"
+consumer_key= "#####################"
+consumer_secret="##########################"
 
-key ="1446532500893933573-ist3nxwK8LR5cxKMjUEW8qDwauULNI"
-secret="YqqH6MkI3XgjF5u2IHGuoaUCvh9hFCVyUG19kL5Ny2b6O"
+key ="############################"
+secret="###################################"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
 
